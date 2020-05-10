@@ -9,3 +9,13 @@
     margin-left: 55;
     padding:0;
 }
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald;
+    color: #ffffff;
+    background-color: rgba(241, 109, 107, .7);
+    padding: 20 50 30 15;
+   
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position:absolute;
