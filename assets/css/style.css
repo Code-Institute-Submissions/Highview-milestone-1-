@@ -12,9 +12,9 @@ body{
 }
 
 .banner{
-    float:left;
+    float:right;
     font-family: Oswald;
-    font-size: 280%;
+    font-size: 200%;
     letter-spacing: 4px;
     color: #1b3fdf;
     margin-left: 55;
@@ -33,21 +33,19 @@ body{
     margin-right: 30px
 } 
 
-
-
  nav a {
      text-decoration: none;
-     font-size: 20px;
+     font-size: 30px;
      letter-spacing: 4px;
-     color: #777777;
+     color: blue;
  }  
 
 nav a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid yellow;
 }
 
 .active{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid yellowgreen;
 }
 
 
@@ -56,51 +54,37 @@ nav a:hover {
   height: 600px;
   width: 100%;
   overflow: hidden;
+  position: relative;
   
 }
 
 #cover-image
 {
-  height: 600px;
+  height: 700px;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  background: url(../img/form-bg.png) no-repeat center center;
-  /* padding: 0;
-  margin:0; */
+  background: url(../images/stay_at_home.jpg) center center no-repeat;
+  background-size: 70% 70%;
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+#club-history
+{
+ height: 600px;
+ width: 175%;
+ background: url(../images/Club_history.jpg) center center no-repeat;
+ background-size: 75% 75%;   
 }
 
-#cover-text{
-    font-size: 130%;
-    font-family: Oswald;
-    color: #ffffff;
-    background-color: rgba(241, 109, 107, .7);
-    padding: 20 50 30 15;
-   
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    position:absolute;
 
-  top: 360px;
-  right: 145px;
-  width: 280px;
-  height: 200px;
-     
+#crest
+{
+ height: 100px;
+ width: 10%;
+ background: url(../images/Highview_crest.jpg) right no-repeat;
+ background-size: 100% 100%;   
 }
-
 
 ul {
     font-size: 110%;
@@ -138,7 +122,7 @@ section {
     font-family: Oswald;
     font-size: 280%;
     letter-spacing: 3px;
-    color: #555555;
+    color:blue;
     text-align: center; 
 }
 
@@ -157,7 +141,7 @@ section {
 
 #times div{
     color:#fafafa;
-    background-color:rgba(0,0,0, .6);      
+    background-color:rgba(43, 6, 250, 0.986);      
     width: 19%;
     height: 300px;
     margin-left: 4px; 
@@ -197,7 +181,7 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color:red;
 }
 
 /* gallery */
@@ -211,8 +195,6 @@ footer{
     padding: 30 0;
     clear: both;
     background: url(../img/form-bg2.png);
-    /* background: url(../img/LoveRunning2019.png); */
-    /* opacity:.9; */
     background-size: cover;
   background-position: center;
   height: 600px;
@@ -342,19 +324,16 @@ h2{
 
 
     #left-about{
-        padding-top: 30px;
-        width:33%;
+        padding-top: 20px;
+        width:50%;
         float:left;
     }
 
-    #center-about{
-        width:33%;
-        margin: auto;
-    }
+    
 
     #right-about{
         padding-top: 30px;
-        width:33%;
+        width:40%;
         float:right;
        
     }
@@ -364,7 +343,7 @@ h2{
     .left-about-heading{
         width: 50%;
         float:right;
-        line-height: 20px;
+        line-height: 30px;
         clear: both;
         margin-bottom: 50px;
     }
