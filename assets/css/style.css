@@ -77,6 +77,15 @@ nav a:hover {
  background-size: 75% 75%;   
 }
 
+#Registration
+{
+ height: 100px;
+ width: 25%;
+ background: url(../images/registeration_banner.jpg) center center no-repeat;
+ background-size: 50% 50%; 
+ margin-left: 55;  
+ padding: 50 0;
+}
 
 #crest
 {
