@@ -120,13 +120,9 @@ h2 {
 }
 
 
-section {
-    
-     /* min-height: 600px; */
-}
+section 
 
 #welcome{
-    /* padding-top: 30px; */
     margin: 50 0 50 0;
     font-family: Oswald;
     font-size: 280%;
@@ -137,12 +133,11 @@ section {
 
 
 #times {
-    background-image: url(../img/DublinDocklands.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width:100%;
-    /* margin: 0; */
+    margin: 0;
     overflow: hidden;
 }
 
@@ -160,7 +155,7 @@ section {
     }
 
     #times div h2{
-        color:#fafafa;
+        color:#d2f50e;
     }
 
 
@@ -190,92 +185,9 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:red;
+    color:blue;
 }
 
-/* gallery */
-
-
-
-
-  /* Contact Form */
-
-  #form-section{
-    padding: 30 0;
-    clear: both;
-    background: url(../img/form-bg2.png);
-    background-size: cover;
-  background-position: center;
-  height: 600px;
-}
-
-#form-container{
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.8);
-    /* background-color: rgba(241, 109, 107, .9); */
-    width: 30%;
-    margin: 0 auto;
-    padding: 30px;
-}
-
-
-
-.sub-heading {
-    margin-top: 35px;
-    line-height: 10%;
-  }
-  
-  .signup-form {
-    margin-top: 35px;
-  }
-  
-   label {
-    line-height: 100%;
-    margin-bottom: 5px;
-    font-size: 14px;
-    padding:0;
-  }
-  
-   .text-input {
-    background-color: transparent;
-    color: #fff;
-    width: 100%;
-    height: 30px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(254, 254, 254, 0.3);
-    border-radius: 5px;
-  }
-  
-   input:hover, input:focus {
-    border-color: #fff;
-  }
-  
-  legend{
-      margin-bottom: 15px;
-  }
-  
-  .running-preferences{
-      width: 100%;
-      margin-bottom:20px;
-      padding: 0;
-  }
-
-  .preference-label{
-      margin: 10 5 30 5;
-  }
-  
-  
-  .join-button {
-      border-radius: 3px;
-      color:#999999;
-      padding: 15px 32px;
-      text-align: center;
-      font-size: 16px;
-
-  }
-
-/* End Contact Form */
 
 
 #photos {
@@ -309,28 +221,8 @@ h2{
     text-transform:uppercase;
     font-family: Oswald;
     letter-spacing: 4px;
-    color: #666666;
+    color: blue;
 }
-
-    #circle-container{
-        width: 300px;
-        height: 300px;
-        padding: 30px;  
-        border-style: solid;
-        border-color: #cccccc;
-        border-width:1px;
-        border-radius: 50%;
-        margin:0 auto;
-    }
-
-     #circle-cover-bg{
-        position: relative;
-        background:url(../img/video-mask.png) no-repeat center center;
-        border-radius: 50%;
-        height: 100%;
-    }
-
-
 
     #left-about{
         padding-top: 20px;
@@ -338,7 +230,11 @@ h2{
         float:left;
     }
 
-    
+    #center-about{
+        padding-top: 20px;
+        width:50%;
+        float:center;
+    }
 
     #right-about{
         padding-top: 30px;
@@ -365,6 +261,14 @@ h2{
         line-height: 20px;
         clear: both;
         margin-bottom: 50px;
+    }
+
+    .center-about-heading{
+        width: 65%;
+        float:right; 
+        line-height: 40px;
+        clear: both;
+        margin-bottom: 10px;
     }
 
     hr {
@@ -418,7 +322,8 @@ h2{
     
 
     p {
-        padding: 0 53px 20px 0px;
+        padding: 0px 20px 0px;
+        color: blue
         
     }
 
