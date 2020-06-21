@@ -37,7 +37,7 @@ body{
      text-decoration: none;
      font-size: 30px;
      letter-spacing: 4px;
-     color: blue;
+     color:#1b3fdf;
  }  
 
 nav a:hover {
@@ -127,7 +127,7 @@ section
     font-family: Oswald;
     font-size: 280%;
     letter-spacing: 3px;
-    color:blue;
+    color:#1b3fdf;
     text-align: center; 
 }
 
@@ -145,7 +145,7 @@ section
 
 #times div{
     color:#fafafa;
-    background-color:rgba(43, 6, 250, 0.986);      
+    background-color:#1b3fdf;      
     width: 19%;
     height: 300px;
     margin-left: 4px; 
@@ -185,14 +185,14 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:blue;
+    color:#1b3fdf;
 }
 
 
 
 #photos {
     clear: both;
-    /* Prevent vertical gaps */
+
     line-height: 0;
      
     -webkit-column-count: 4;
@@ -204,24 +204,18 @@ footer{
   }
   
   #photos img {
-    /* Just in case there are inline attributes */
     width: 100% !important;
     height: auto !important;
   }
-
-  /* end gallery */
-
-
-
   p{
-    font-size: 90%;
+    font-size: 80%;
 }
 
 h2{
     text-transform:uppercase;
     font-family: Oswald;
     letter-spacing: 4px;
-    color: blue;
+    color: #1b3fdf;
 }
 
     #left-about{
@@ -286,53 +280,8 @@ h2{
     float:right;
 }
 
-
-.right-about-heading hr,
-.right-about-heading p{
-    float:right;
-}
-
-
-
-.right-about-heading p{
-    text-align: right; 
-}
-
-
- 
-@media screen and (max-width: 768px) {
-    
-    #menu{
-        clear: both;
-        margin:0;
-        padding: 0;
-    }
-
-    nav {
-      float: left;
-       margin-left: 55px;
-    }
-
-    
-    
-    .activities{
-    
-        width: 100%;
-    }
-    
-
-    p {
-        padding: 0px 20px 0px;
-        color: blue
-        
-    }
-
     .social-networks i {
         font-size: 80%;
-    }
-
-    #form-container{
-        width: 70%;
     }
 
 }
@@ -347,12 +296,8 @@ h2{
 }
     
     #welcome{
-        /* padding-top: 30px; */
         margin-top: 0;
     }
-
-
-
     #times div{
         width: 100%;
         clear: both;
@@ -363,90 +308,6 @@ h2{
         padding: 0;
     }
 
-
-#cover-image
-{
- height: 500px;
-  background-size: cover;
-  background-position: center;
-  background: url(../img/form-bg.png) no-repeat ;
-  
-}
     #cover-text{
         left: 0px; 
     }
-
-
-
-    #left-about, 
-    #right-about,
-    #center-about
-    {
-        width: 100%;
-        float: left;
-        margin:0;
-        padding: 0;
-
-    }
-
-    #center-about{
-        margin-bottom: 30px;
-        margin-top: 0px;
-    }
-
-
-    .left-about-heading,
-    .right-about-heading
-    {
-        width: inherit;
-        
-    }
-
-
-.right-about-heading h2,
-.left-about-heading h2
-{
-    width: 100%;
-    text-align: center;
-}
-
-.right-about-heading p,
-.left-about-heading p
-{
-
-   text-align: center;
-   padding: 0 20 0 20;
-}
-
-hr{
-    width:0%;
-}
-
-
-
-
-}
-
-
-/*masonary */
-@media (max-width: 1200px) {
-    #photos {
-    -moz-column-count:    4;
-    -webkit-column-count: 4;
-    column-count:         4;
-    }
-  }
-  @media (max-width: 1000px) {
-    #photos {
-    -moz-column-count:    3;
-    -webkit-column-count: 3;
-    column-count:         3;
-    }
-  }
-  @media (max-width: 800px) {
-    #photos {
-    -moz-column-count:    2;
-    -webkit-column-count: 2;
-    column-count:         2;
-    }
-  }
